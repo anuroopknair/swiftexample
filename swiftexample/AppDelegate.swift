@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  swiftexample
@@ -6,19 +7,65 @@
 //  Copyright (c) 2014 Neologix Pvt Ltd. All rights reserved.
 //
 
+import Foundation;
+import SystemConfiguration;
+import MobileCoreServices
 import UIKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var database:COpaquePointer = nil
+    
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+      
+            checkdatabase()
+    
+        
+        
         return true
     }
-
+    func checkdatabase(){
+        var dirPaths:NSString
+        
+        dirPaths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString;
+        
+        let databasePath = dirPaths.stringByAppendingString("/MyPasswordManager.sqlite")
+        let dbpath = databasePath;// (databasePath as NSString).UTF8String
+        NSLog("%@", dbpath);
+        
+        println("path ",databasePath);
+        
+          println("path ",dbpath);
+        let filemanager = NSFileManager.defaultManager()
+        
+        
+    if (!filemanager.fileExistsAtPath(databasePath))
+        {
+            let fileForCopy = NSBundle.mainBundle().pathForResource("MyPasswordManager",ofType:"sqlite")
+            println("error while opening ",fileForCopy);
+            filemanager.copyItemAtPath(fileForCopy!, toPath:databasePath, error: nil)
+        }
+        
+        let error = sqlite3_open(dbpath, &database)
+        if error != SQLITE_OK
+        {
+            println("error while opening");
+            //sqlite3_close(database);
+        }
+        else
+        {
+            println("already open");
+        }
+        
+    }
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

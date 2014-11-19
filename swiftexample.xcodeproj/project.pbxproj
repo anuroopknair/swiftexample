@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55ED9DF1A10BAC100BDFAB1 /* accntTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55ED9DE1A10BAC100BDFAB1 /* accntTableCell.swift */; };
+		B56560E01A0257420000D391 /* NSObject+bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = B56560DF1A0257420000D391 /* NSObject+bridging.m */; };
+		B57C8C2619FA536800538FE7 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C8C2519FA536800538FE7 /* list.swift */; };
+		B588492619F9208500A9D746 /* third.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588492519F9208500A9D746 /* third.swift */; };
+		B58976091A08AA53006058DF /* MyPasswordManager.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B58976081A08AA4F006058DF /* MyPasswordManager.sqlite */; };
+		B589760A1A08ABBD006058DF /* MyPasswordManager.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B58976081A08AA4F006058DF /* MyPasswordManager.sqlite */; };
+		B589760B1A08C6E7006058DF /* MyPasswordManager.sqlite in Sources */ = {isa = PBXBuildFile; fileRef = B58976081A08AA4F006058DF /* MyPasswordManager.sqlite */; };
 		B59B596919EE91AA001339F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B596819EE91AA001339F8 /* AppDelegate.swift */; };
-		B59B596B19EE91AA001339F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B596A19EE91AA001339F8 /* ViewController.swift */; };
 		B59B596E19EE91AA001339F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59B596C19EE91AA001339F8 /* Main.storyboard */; };
 		B59B597019EE91AA001339F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59B596F19EE91AA001339F8 /* Images.xcassets */; };
 		B59B597319EE91AA001339F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59B597119EE91AA001339F8 /* LaunchScreen.xib */; };
 		B59B597F19EE91AA001339F8 /* swiftexampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B597E19EE91AA001339F8 /* swiftexampleTests.swift */; };
+		B5ADCA2F1A19C475007F29D2 /* BoxArrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ADCA2E1A19C475007F29D2 /* BoxArrange.swift */; };
+		B5C6F3A71A1C9E9A0026453F /* gg+.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C6F3A61A1C9E9A0026453F /* gg+.png */; };
+		B5CE20F919FE4D1000CC85B9 /* AddDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CE20F819FE4D1000CC85B9 /* AddDetail.swift */; };
+		B5CE20FB19FE6E6700CC85B9 /* sqllitehelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CE20FA19FE6E6700CC85B9 /* sqllitehelper.swift */; };
+		B5CE20FD19FE6E8500CC85B9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CE20FC19FE6E8500CC85B9 /* libsqlite3.dylib */; };
+		B5CE20FF19FE6EB400CC85B9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CE20FE19FE6EB400CC85B9 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55ED9DE1A10BAC100BDFAB1 /* accntTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accntTableCell.swift; sourceTree = "<group>"; };
+		B56560DD1A02573F0000D391 /* swiftexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftexample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B56560DE1A0257420000D391 /* NSObject+bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+bridging.h"; sourceTree = "<group>"; };
+		B56560DF1A0257420000D391 /* NSObject+bridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+bridging.m"; sourceTree = "<group>"; };
+		B57C8C2519FA536800538FE7 /* list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		B588492519F9208500A9D746 /* third.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = third.swift; sourceTree = "<group>"; };
+		B58976081A08AA4F006058DF /* MyPasswordManager.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyPasswordManager.sqlite; sourceTree = "<group>"; };
 		B59B596319EE91AA001339F8 /* swiftexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B596719EE91AA001339F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59B596819EE91AA001339F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B59B596A19EE91AA001339F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B59B596D19EE91AA001339F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B59B596F19EE91AA001339F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B59B597219EE91AA001339F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B59B597819EE91AA001339F8 /* swiftexampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftexampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B597D19EE91AA001339F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59B597E19EE91AA001339F8 /* swiftexampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftexampleTests.swift; sourceTree = "<group>"; };
+		B5ADCA2E1A19C475007F29D2 /* BoxArrange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxArrange.swift; sourceTree = "<group>"; };
+		B5C6F3A61A1C9E9A0026453F /* gg+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gg+.png"; sourceTree = "<group>"; };
+		B5CE20F819FE4D1000CC85B9 /* AddDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetail.swift; sourceTree = "<group>"; };
+		B5CE20FA19FE6E6700CC85B9 /* sqllitehelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sqllitehelper.swift; sourceTree = "<group>"; };
+		B5CE20FC19FE6E8500CC85B9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B5CE20FE19FE6EB400CC85B9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CE20FF19FE6EB400CC85B9 /* libsqlite3.0.dylib in Frameworks */,
+				B5CE20FD19FE6E8500CC85B9 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B56560DB1A0245D70000D391 /* Database Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B58976081A08AA4F006058DF /* MyPasswordManager.sqlite */,
+				B5CE20FA19FE6E6700CC85B9 /* sqllitehelper.swift */,
+				B56560DE1A0257420000D391 /* NSObject+bridging.h */,
+				B56560DF1A0257420000D391 /* NSObject+bridging.m */,
+				B56560DD1A02573F0000D391 /* swiftexample-Bridging-Header.h */,
+			);
+			name = "Database Helper";
+			sourceTree = "<group>";
+		};
 		B59B595A19EE91AA001339F8 = {
 			isa = PBXGroup;
 			children = (
+				B5CE20FE19FE6EB400CC85B9 /* libsqlite3.0.dylib */,
+				B5CE20FC19FE6E8500CC85B9 /* libsqlite3.dylib */,
 				B59B596519EE91AA001339F8 /* swiftexample */,
 				B59B597B19EE91AA001339F8 /* swiftexampleTests */,
 				B59B596419EE91AA001339F8 /* Products */,
@@ -77,8 +117,14 @@
 		B59B596519EE91AA001339F8 /* swiftexample */ = {
 			isa = PBXGroup;
 			children = (
+				B56560DB1A0245D70000D391 /* Database Helper */,
 				B59B596819EE91AA001339F8 /* AppDelegate.swift */,
-				B59B596A19EE91AA001339F8 /* ViewController.swift */,
+				B5ADCA2E1A19C475007F29D2 /* BoxArrange.swift */,
+				B588492519F9208500A9D746 /* third.swift */,
+				B57C8C2519FA536800538FE7 /* list.swift */,
+				B55ED9DE1A10BAC100BDFAB1 /* accntTableCell.swift */,
+				B5C6F3A61A1C9E9A0026453F /* gg+.png */,
+				B5CE20F819FE4D1000CC85B9 /* AddDetail.swift */,
 				B59B596C19EE91AA001339F8 /* Main.storyboard */,
 				B59B596F19EE91AA001339F8 /* Images.xcassets */,
 				B59B597119EE91AA001339F8 /* LaunchScreen.xib */,
@@ -161,9 +207,11 @@
 				TargetAttributes = {
 					B59B596219EE91AA001339F8 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = HDPW68C323;
 					};
 					B59B597719EE91AA001339F8 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = HDPW68C323;
 						TestTargetID = B59B596219EE91AA001339F8;
 					};
 				};
@@ -192,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C6F3A71A1C9E9A0026453F /* gg+.png in Resources */,
+				B58976091A08AA53006058DF /* MyPasswordManager.sqlite in Resources */,
 				B59B596E19EE91AA001339F8 /* Main.storyboard in Resources */,
 				B59B597319EE91AA001339F8 /* LaunchScreen.xib in Resources */,
 				B59B597019EE91AA001339F8 /* Images.xcassets in Resources */,
@@ -202,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B589760A1A08ABBD006058DF /* MyPasswordManager.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59B596B19EE91AA001339F8 /* ViewController.swift in Sources */,
+				B55ED9DF1A10BAC100BDFAB1 /* accntTableCell.swift in Sources */,
+				B589760B1A08C6E7006058DF /* MyPasswordManager.sqlite in Sources */,
+				B57C8C2619FA536800538FE7 /* list.swift in Sources */,
+				B588492619F9208500A9D746 /* third.swift in Sources */,
 				B59B596919EE91AA001339F8 /* AppDelegate.swift in Sources */,
+				B5CE20F919FE4D1000CC85B9 /* AddDetail.swift in Sources */,
+				B5ADCA2F1A19C475007F29D2 /* BoxArrange.swift in Sources */,
+				B5CE20FB19FE6E6700CC85B9 /* sqllitehelper.swift in Sources */,
+				B56560E01A0257420000D391 /* NSObject+bridging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +330,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anuroop Nair (KTM69483WF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anuroop Nair (KTM69483WF)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -292,6 +351,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fed1af50-a578-4fd5-bdd4-225e65c30265";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +375,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anuroop Nair (KTM69483WF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anuroop Nair (KTM69483WF)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -328,6 +389,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fed1af50-a578-4fd5-bdd4-225e65c30265";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -338,9 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = swiftexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shan2/Desktop/swiftexample/swiftexample/NSObject+bridging.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/shan2/Desktop/swiftexample/swiftexample/NSObject+bridging.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = swiftexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shan2/Desktop/swiftexample/swiftexample/NSObject+bridging.h/Users/shan2/Desktop/swiftexample/swiftexample/sqllitehelper.swift";
 			};
 			name = Release;
 		};
@@ -358,6 +432,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -369,6 +445,7 @@
 				INFOPLIST_FILE = swiftexampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftexample.app/swiftexample";
 			};
 			name = Debug;
@@ -377,6 +454,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,6 +463,7 @@
 				INFOPLIST_FILE = swiftexampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftexample.app/swiftexample";
 			};
 			name = Release;
@@ -407,6 +487,7 @@
 				B59B598419EE91AA001339F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59B598519EE91AA001339F8 /* Build configuration list for PBXNativeTarget "swiftexampleTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +496,7 @@
 				B59B598719EE91AA001339F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
